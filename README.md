@@ -15,8 +15,8 @@ docs/
 ├── philosophy/     # 哲学层
 ├── design/         # 机制层
 ├── decisions/      # 机制决议
-├── drafts/         # 规则草案 v0.1
-└── plans/          # 设计总览、推演模型、方向决策
+├── drafts/         # 规则草案 v0.1（合并）
+└── plans/          # 设计总览、推演模型
 ```
 
 ## 许可

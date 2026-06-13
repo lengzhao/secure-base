@@ -152,11 +152,8 @@ flowchart LR
 
 | 文档 | 用途 |
 |------|------|
-| [Tier 0 规则草案 v0.1](../drafts/tier0-rules-v0.1.md) | 可执行细则 |
-| [信义分规则草案 v0.1](../drafts/moral-score-rules-v0.1.md) | 加分扣分表 |
-| [资金与增长草案 v0.1](../drafts/funding-growth-v0.1.md) | 会员费口径与池子分配 |
+| [规则草案 v0.1](../drafts/rules-v0.1.md) | Tier 0、信义分、会员费、透明治理、AI 边界 |
 | [推演模型](../plans/2026-06-13-simulation-model.md) | 数值验证 |
-| [方向决策](../plans/2026-06-13-direction-decision.md) | 路径选择 |
 
 ---
 

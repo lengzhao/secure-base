@@ -1,50 +1,25 @@
 # 安心基座 · 文档索引
 
-一种以**信义分**为基础、以**集体必需品投资**为物质底、以 **AI 生产力**为增长引擎的宽松集体经济系统。
+以**信义分**划界、**集体必需品投资**为物质底、**AI 生产力**为增长引擎的宽松集体经济。
 
-核心经济结构：**至少 51% 属于集体，最多 49% 属于投资者；Tier 0 成员定期领取接近均等的积分托底，Tier 1+ 按贡献权益分加权分配增量，并保留增长储备与风险准备金。**
-
-落地路径：**分三期递进** — Phase 1 互助基座（Tier 0 + 透明账本）→ Phase 2 单资产生产试点 → Phase 3 完整经济体（51/49 + AI 造血）。
-
-经济学原则：**底线不厚，贡献有价，资本有利但有限，集体有最终控制权。**
-
-资金投向原则：**农业与基础工业优先**，先掌握粮食、能源、材料、基础制造等生活底层供给能力。
-
-绿色安全原则：**农业 / 基础工业资产必须全流程、技术、检验检疫、质量追溯公开透明**，产品既服务成员，也可对集体外用户销售，形成正向经济收益。
-
-透明原则：**规则、账本、资金流向、投资标的、收益分配、信用惩罚案例原则上公开透明**；涉及个人隐私时做必要脱敏，但不得以隐私为名隐藏系统性信息。
+**不作恶，就有入口；有贡献，底更厚；资本有限利，AI 为池造血。**
 
 ## 当前阶段
 
-**方向 D → A 过渡**：P0 机制已闭合为决议草案，规则草案与推演模型已完成；仍暂不落地、不定 MVP 时间表。
+**D → A 过渡**：P0 机制已闭合，规则草案与推演已完成；仍不落地、不定 MVP 时间表。
 
 | 现在做 | 现在不做 |
 |--------|---------|
-| 机制闭合与规则草案（已完成） | 选法律主体、注册组织 |
-| 概念验证推演（已完成） | 写 App、发币、搞试点 |
-| Phase 1 前置设计收敛 | 过早承诺具体金额与 SKU |
+| 机制闭合与规则草案 | 选法律主体、注册组织 |
+| 概念验证推演 | 写 App、发币、搞试点 |
 
-## 背景
+## 阅读顺序
 
-许多人对未来感到恐慌，根源是生活必需品缺少可预期的保障。失业、被 AI 替代、收入不稳定、长期低收入，本质都是**劳动收入与生存需求之间的断裂**。
-
-本系统试图建立第三层安全网：在国家社保与个人劳动收入之外，用集体互助 + 必需品资产 + AI 共同生产力，托住基本生活。
-
-## 推荐阅读顺序
-
-```mermaid
-flowchart LR
-    A[哲学基础] --> B[机制总览]
-    B --> C[分专题机制]
-    C --> D[张力与开放问题]
-    D --> E[系统设计总览]
-```
-
-1. [哲学基础](./philosophy/foundations.md) — 为什么、是什么、不是什么  
-2. [机制总览](./design/mechanism-overview.md) — 四柱结构、不变量、反馈环  
-3. 分专题 — 信义分 / 集体资金 / AI 养人 / 治理  
-4. [张力与开放问题](./philosophy/tensions-and-open-questions.md) — 刻意未闭合的分叉  
-5. [系统设计总览](./plans/2026-06-13-anxin-foundation-design.md) — 一页纸全貌  
+1. [哲学基础](./philosophy/foundations.md) — 为什么、是什么、不是什么
+2. [机制总览](./design/mechanism-overview.md) — 四柱、不变量、三期路线
+3. 分专题 — [信义分](./design/moral-score.md) / [集体资金](./design/collective-fund.md) / [AI 养人](./design/ai-productivity.md) / [治理](./design/governance-and-risks.md)
+4. [张力与开放问题](./philosophy/tensions-and-open-questions.md)
+5. [系统设计总览](./plans/2026-06-13-anxin-foundation-design.md) — 一页纸全貌
 
 ## 文档结构
 
@@ -52,49 +27,36 @@ flowchart LR
 
 | 文档 | 内容 |
 |------|------|
-| [哲学基础](./philosophy/foundations.md) | 第一性原理、宽松含义、信义 vs 道德、AI 养人哲学、第三层安全网 |
-| [张力与开放问题](./philosophy/tensions-and-open-questions.md) | 核心张力、机制层未决问题、讨论优先级 |
+| [哲学基础](./philosophy/foundations.md) | 第一性原理、宽松含义、第三层安全网 |
+| [张力与开放问题](./philosophy/tensions-and-open-questions.md) | 未决分叉与 P0 闭合项 |
 
 ### 机制层
 
 | 文档 | 内容 |
 |------|------|
-| [机制总览](./design/mechanism-overview.md) | 四柱机制、不变量、Tier 0/1+ 分层、三期路线图、反馈环 |
-| [所有权与分配机制](./design/ownership-and-distribution.md) | 51/49 结构、Tier 0/1+ 分层、投资者有限回报 |
-| [经济模型与激励设计](./design/economic-model.md) | 逆向选择、道德风险、双分制、风险准备金 |
-| [信义分机制](./design/moral-score.md) | 双轨增长、不作恶定义、权益挂钩 |
-| [集体资金与必需品投资](./design/collective-fund.md) | 资金池、投资标的、分配优先级 |
-| [AI 养人](./design/ai-productivity.md) | AI 归属集体、内环降本 / 外环造血 |
+| [机制总览](./design/mechanism-overview.md) | 四柱、不变量、Tier 0/1+、反馈环 |
+| [所有权与分配](./design/ownership-and-distribution.md) | 51/49、Tier 分层 |
+| [经济模型](./design/economic-model.md) | 逆向选择、道德风险、风险准备金 |
+| [信义分](./design/moral-score.md) | 双轨增长、不作恶、权益挂钩 |
+| [集体资金](./design/collective-fund.md) | 资金池、投资标的、分配优先级 |
+| [AI 养人](./design/ai-productivity.md) | 内环降本 / 外环造血 |
 | [治理与风险](./design/governance-and-risks.md) | 治理原则、主要风险 |
 
-### 决议与草案（2026-06-13）
+### 决议与草案
 
 | 文档 | 内容 |
 |------|------|
-| [P0 机制决议](./decisions/2026-06-13-p0-mechanism-resolutions.md) | 必需品边界、Tier 0/1+、不作恶清单、双分制 |
-| [Tier 0 规则草案 v0.1](./drafts/tier0-rules-v0.1.md) | 资格、发放、会员费关系 |
-| [信义分规则草案 v0.1](./drafts/moral-score-rules-v0.1.md) | 加分扣分、会员费 → Tier 1 |
-| [透明治理草案 v0.1](./drafts/transparency-governance-v0.1.md) | 公开目录、披露节律 |
-| [资金与增长草案 v0.1](./drafts/funding-growth-v0.1.md) | 会员费、风险准备金 |
-| [AI 使用边界草案 v0.1](./drafts/ai-usage-boundaries-v0.1.md) | Phase 1 允许 / 禁止能力 |
-| [概念验证推演模型](./plans/2026-06-13-simulation-model.md) | 100 / 500 / 1000 人推演 |
-| [实现方向决策](./plans/2026-06-13-direction-decision.md) | D → A 过渡建议 |
+| [P0 机制决议](./decisions/2026-06-13-p0-mechanism-resolutions.md) | 必需品、Tier 0/1+、不作恶、双分制 |
+| [规则草案 v0.1](./drafts/rules-v0.1.md) | Tier 0、信义分、会员费、透明治理、AI 边界 |
+| [推演模型](./plans/2026-06-13-simulation-model.md) | 100 / 500 / 1000 人推演 |
 
-### 总览与附录
+### 附录
 
 | 文档 | 内容 |
 |------|------|
-| [系统设计总览](./plans/2026-06-13-anxin-foundation-design.md) | 架构一图、价值闭环、三期路线图 |
-| [MVP 试点方案](./design/mvp.md) | **附录 · Phase 1 草案** — 前置设计已完成，仍非执行计划 |
+| [系统设计总览](./plans/2026-06-13-anxin-foundation-design.md) | 架构一图、价值闭环 |
+| [MVP 试点方案](./design/mvp.md) | Phase 1 草案，非执行计划 |
 
-## 核心 Slogan
+## 未来方向（未选定）
 
-**不作恶，就有入口；有贡献，底更厚；资本有限利，AI 为池造血。**
-
-## 未来可能方向（尚未选定）
-
-- **A** 社会实验 / 社区互助  
-- **B** 可产品化平台  
-- **C** 政策 / 学术提案  
-
-选定时机：哲学与机制层关键开放问题闭合之后。
+**A** 社区互助 · **B** 产品平台 · **C** 政策提案 — 待开放问题闭合后再选；当前倾向 A 前置准备（300–500 人规模）。
