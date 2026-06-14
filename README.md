@@ -13,11 +13,13 @@
 ```
 docs/
 ├── philosophy/     # 哲学层
-├── design/         # 机制层
+├── design/         # 机制层（含 Phase 0 Agent 产品草案）
 ├── decisions/      # 机制决议
 ├── drafts/         # 规则草案 v0.1（合并）
 └── plans/          # 设计总览、推演模型
 ```
+
+首个可执行产品方向见 [docs/design/phase-0-agent-product.md](docs/design/phase-0-agent-product.md)。
 
 ## 许可
 
